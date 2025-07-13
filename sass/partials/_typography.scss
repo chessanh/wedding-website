@@ -12,17 +12,17 @@ $accent-font: 'Nunito', sans-serif;
 $light: 300;
 $normal: 400;
 $semibold: 500;
-$bold: 700;
+$bold: 900;
 
 // Sizes
 
 $font-size-h1: 60px;
 $font-size-h2: 40px;
 $font-size-h3: 24px;
-$font-size-h4: 18px;
-$font-size-h5: 15px;
-$font-size-p: 15px;
-$nav-font-size: 13px;
+$font-size-h4: 22px;
+$font-size-h5: 20px;
+$font-size-p: 18px;
+$nav-font-size: 23px;
 $blog-post-title: 11px;
 
 // Responsive Sizes
@@ -43,16 +43,20 @@ p {
   line-height: $base-line-height;
   color: $txt-primary;
   padding-bottom: 20px;
+  // font-weight: 
+  // letter-spacing: 1px
 }
 
 h1 {
   font-size: $font-size-h1;
+    letter-spacing: 4px;
 }
 
 h2 {
   font-size: $font-size-h2;
   font-weight: $light;
   color: $h2-color;
+    letter-spacing: 4px;
 }
 
 h3 {
@@ -60,12 +64,13 @@ h3 {
   font-size: $font-size-h4;
   font-weight: $bold;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   line-height: $base-line-height;
 }
 
 h4 {
   font-size: $font-size-h4;
+    letter-spacing: 2px;
 }
 
 h5 {
@@ -73,4 +78,5 @@ h5 {
   color: $h5-color;
   text-transform: uppercase;
   font-weight: $semibold;
+    // letter-spacing: 2px;
 }

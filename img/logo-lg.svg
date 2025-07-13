@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="43.383305mm"
+   height="9.298027mm"
+   viewBox="0 0 43.383305 9.2980271"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   sodipodi:docname="chessa_and_sean.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.4930891"
+     inkscape:cx="98.271657"
+     inkscape:cy="17.648787"
+     inkscape:window-width="1712"
+     inkscape:window-height="1041"
+     inkscape:window-x="0"
+     inkscape:window-y="66"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-2.9850948"
+       originy="-19.40429"
+       spacingx="0.1"
+       spacingy="0.1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.9850942,-19.404289)">
+    <g
+       style="fill:none;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
+       transform="matrix(0.11111204,0,0,0.11111204,22.024343,19.017458)"
+       id="g2-3">
+	<path
+   d="m 7.486,13.502 c 9.982,-9.982 26.165,-9.982 36.147,0 L 45,14.869 v 0 c 6.895,22.882 6.259,47.092 0,72.294 L 26.927,69.089 c 0,0 0,0 0,0 L 7.487,49.649 C -2.495,39.667 -2.495,23.484 7.486,13.502 Z"
+   style="opacity:1;fill:#d6493e;fill-rule:nonzero;stroke:none;stroke-width:0.998992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
+   stroke-linecap="round"
+   id="path1-3"
+   inkscape:label="path1" />
+
+	<path
+   d="M 82.514,13.502 C 72.532,3.52 56.349,3.52 46.367,13.502 L 45,14.869 v 0 72.294 L 63.073,69.09 c 0,0 0,0 0,0 l 19.44,-19.44 c 9.982,-9.983 9.982,-26.166 10e-4,-36.148 z"
+   style="opacity:1;fill:#d7493e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none"
+   stroke-linecap="round"
+   id="path2-0" />
+
+</g>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#bb3f3f;stroke-width:0.180166;stroke-linecap:square;stroke-dasharray:none"
+       x="2.9356513"
+       y="26.775558"
+       id="text1-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Savoye LET';-inkscape-font-specification:'Savoye LET';fill:#ffffff;stroke:#ffffff;stroke-width:0.180166;stroke-dasharray:none"
+         x="2.9356513"
+         y="26.775558">Chessa</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:none;stroke:#bb3f3f;stroke-width:0.174383;stroke-linecap:square;stroke-dasharray:none"
+       x="32.251102"
+       y="26.788786"
+       id="text1-3-9-7"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-5-2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Savoye LET';-inkscape-font-specification:'Savoye LET';fill:#ffffff;stroke:#ffffff;stroke-width:0.174383;stroke-dasharray:none"
+         x="32.251102"
+         y="26.788786">Sean</tspan></text>
+  </g>
+</svg>
