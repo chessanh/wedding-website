@@ -24,13 +24,14 @@ Global Styles
   margin: 0;
 }
 a {
-  color: $accent-color;
+  color: $txt-primary;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
   transition-duration: 200ms;
   -webkit-transition-property: color, border-color, background-color;
   transition-property: color, border-color, background-color;
+  text-decoration: underline;
 }
 a:hover, a:focus {
   color: $accent-color-hover;
@@ -187,7 +188,7 @@ Navigation
   top: 0;
   right: 15px;
   z-index: 999999;
-  padding: 10px 35px 16px 0;
+  padding: 16px 35px 16px 0;
   cursor: pointer
 }
 .nav-toggle:focus {
@@ -300,8 +301,8 @@ Hero
   width: 100%;
 }
 header {
-  padding: 15px 0;
-  border-bottom: solid 2px rgba(255, 255, 255, 0.2);
+  padding: 48px 0;
+  // border-bottom: solid 2px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -323,7 +324,7 @@ header {
     height: 39px;
   }
   ul.primary-nav {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 35px;
     padding: 0;
 
     li {
@@ -331,7 +332,8 @@ header {
 
       a {
         color: $txt-light;
-        padding-right: 25px;
+        padding-right: 30px;
+        text-decoration: none;
 
         &:hover {
           color: $accent-color;
@@ -348,6 +350,8 @@ header {
 
       a {
         color: $txt-light;
+        text-decoration: none;
+        top: 48px;
 
         &:hover {
           color: $accent-color;
@@ -357,11 +361,12 @@ header {
   }
   .header-nav {
     display: inline-block;
+    // left: 40px;
   }
   .member-actions {
     position: absolute;
     right: 0;
-    top: 15px;
+    top: 48px;
     transition: all 300ms ease-in-out;
   }
 }
@@ -571,7 +576,7 @@ Features-stack
   .time {
     font-size: 15px;
     font-style: italic;
-    text-transform: lowercase;
+    // text-transform: lowercase;
     color: $txt-primary;
   }
 }
@@ -762,6 +767,14 @@ Embed video
 }
 #video-content p {
   color: #ffffff;
+}
+#broken-top-img {
+  img {
+    width:100%;
+    height:auto;
+    // object-fit: cover;
+    max-height: 700px;
+  }
 }
 
 /* ==========================================================================

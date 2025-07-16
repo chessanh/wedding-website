@@ -1,3 +1,19 @@
+/* @media screen {
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .intro-content {
+        display: inline-block;
+        width: 70%;
+    }
+    .hero .hero-content {
+                min-height: 750px;
+        background-size: cover; 
+    }
+} */
+ 
 @media screen and (max-width: 1200px) {
     header {
         width: 90%;
@@ -8,12 +24,18 @@
         display: inline-block;
         width: 70%;
     }
+    /* .hero .hero-content {
+                min-height: 750px;
+        background-size: cover; 
+    } */
 
 }
 
 @media screen and (max-width: 1024px) {
     .hero .hero-content {
         padding-top: 50%;
+                /* min-height: 750px;
+        background-size: cover;  */
     }
 }
 
@@ -22,10 +44,16 @@
     header {
         width: 90%;
         padding-left: 25px;
+
+    }
+    .hero {
+        background-position-x: 40%;
     }
 
     .hero .hero-content {
         padding-top: 50%;
+                /* min-height: 450px;
+        background-size: contain;  */
     }
 
     .header-nav {
@@ -258,8 +286,18 @@
 }
 
 @media screen and (max-width: 640px) {
+    .hero {
+        min-height: 450px;
+        background-position-x: 40%; 
+        /* background-size: 300%; */
+        /* background-size: contain; */
+        /* width: 100%;
+        height: auto; */
+    }
     .hero .hero-content {
         padding-top: 100%;
+        /* min-height: 450px;
+        background-size: contain; */
     }
 
     #eng-pics .img-wrap i {
@@ -297,6 +335,14 @@
 }
 
 @media screen and (max-width: 480px) {
+    .hero {
+        /* min-height: 450px; */
+        background-position-x: 40%; 
+        /* background-size: 300%; */
+        /* background-size: contain; */
+        /* width: 100%;
+        height: auto; */
+    }
     .hero .hero-content {
         padding-top: 110%;
     }
@@ -361,8 +407,18 @@
 }
 
 @media screen and (max-width: 320px) {
+    .hero {
+        /* min-height: 450px; */
+        background-position-x: 40%; 
+        /* background-size: 300%; */
+        /* background-size: contain; */
+        /* width: 100%;
+        height: auto; */
+    }
     .hero .hero-content {
         padding-top: 130%;
+        /* min-height: 450px;
+        background-size: contain; */
     }
 
     .rsvp {
