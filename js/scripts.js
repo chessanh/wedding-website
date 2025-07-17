@@ -212,13 +212,12 @@ $(document).ready(function () {
         e.preventDefault();
         var data = $(this).serialize();
 
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> Saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
+        if (MD5($('#invite_code').val()) !== '8bf4e6addd72a9c4c4714708d2941528') {
+            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your RSVP password is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbz4NaYRNx8d_RhnnUrfKE7TlPuzP1Y6yQ5J6D1OIeDO-YANBWdgcwnnjRun5p-Zjx8/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {

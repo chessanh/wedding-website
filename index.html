@@ -173,7 +173,7 @@
                     <p><strong>Friday, October 10<sup>th</sup></strong></p>
 <!-- 
                     <h5>Wine Night <span class="time">7:30PM</span></h5> -->
-                    <h5>Wine Night 
+                    <h5>Wine Night <br>
                         <span class="time">7:30PM
                             <br><br>Bledsoe Family Winery<br> <a href="https://maps.app.goo.gl/UtcvtZSnmjhvzdYq9">550 SW Industrial Way Suite 198, Bend, OR 97702</a>
                         </span>
@@ -206,7 +206,7 @@
                         </span>
                     </h5>
                     <p>
-                        We don't want to party the end, so we'll head to Lifty's for more drinks, karaoke, late night snacks, and firepits.
+                        We don't want the party to end, so we'll head to Lifty's for more drinks, karaoke, late night snacks, and firepits.
                     </p> 
                 </div>
             </div>
@@ -214,18 +214,18 @@
                 <div class="wp4">
                     <p><strong>Sunday, October 12<sup>th</sup></strong></p>
 
-                    <h5>Brunch 
+                    <h5>Brunch <br>
                         <span class="time">10:30AM
                             <br><br>Lifty's<br> <a href="https://maps.app.goo.gl/eBeU1SbskobdwNd18">1787 SW Chandler Ave, Bend, OR 97702</a>
                         </span>
                     </span></h5>
-                    <p>Brunch, Bloody Marys, football on the TV, and beach volleyball.</p>
+                    <p>Brunch, Bloody Marys, and NFL football. We'll also play some beach volleyball if the weather is nice!</p>
                 </div>
             </div>
         </div>
         <div class="row section-padding">
             <div class="col-md-4 col-md-offset-4 text-center">
-                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal" style="text-decoration: none;">
                     <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress codes
                 </a>
             </div>
@@ -285,11 +285,11 @@
             <div class="col-md-12 text-center">
                 <h3>Travel and Lodging</h3>
                 <p>The Redmond Municipal Airport (RDM) is recommended and is ~25 minutes away. Portland, Oregon is ~3 hours away.</p>
-                <p>The Best Western-owned Hotel Peppertree offers our discount and is walkable to all events (with complimentary shuttles). Click <a href=https://www.bestwestern.com/en_US/book/hotel-rooms.38175.html?groupId=7K2DS8J3>here</a> to book with our discount.
-                    If you plan to stay there more nights than Friday and Saturday, email Khara at <u>phgteam@peppertreeinns.com</u> to have the discount applied for the additional nights! 
+                <p>The Best Western-owned Hotel Peppertree offers our discount and is close to the venue. Click <a href=https://www.bestwestern.com/en_US/book/hotel-rooms.38175.html?groupId=7K2DS8J3>here</a> to book with our discount.
+                    If you plan to stay there more nights than Friday and Saturday, email <u>phgteam@peppertreeinns.com</u> to have the discount applied for the additional nights.
                 </p>
                 <p>
-                    Alternatively, there are several other hotels in the Old Mill district and downtown Bend, as well as Airbnb/VRBO rentals scattered around Bend.
+                    Alternatively, there are several other hotels in the Old Mill district and downtown, as well as Airbnb/VRBO rentals scattered around Bend.
                 </p>
             </div>
         </div>
@@ -444,7 +444,7 @@
                     <div class="section-padding">
                         <h3>Thank you!</h3>
                         <p>We can't wait to see you.</p>
-                        <div id="add-to-cal"></div>
+                        <!-- <div id="add-to-cal"></div> -->
                     </div>
                 </div>
             </div><!-- /.modal-content -->
@@ -455,7 +455,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <h3>RSVP here!</h3>
-                <p>We would greatly appreciate if you could RSVP as soon as you know your plans, and no later than September 5<sup>th</sup>.</p>
+                <p>We would greatly appreciate if you could RSVP as soon as you know your plans, and no later than September 5<sup>th</sup>. If your plans change, you can update your RSVP on this page at any time.</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
@@ -477,8 +477,8 @@
                     
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your partner's full name"
+                                <i class="fa fa-user"></i><input name="partner_name" class=""
+                                                                 placeholder="Your partner's full name, if applicable"
                                                                  >
                             </div>
                         </div>
@@ -514,14 +514,16 @@
 
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="welcome-party" class="" 
+                                <i class="fa fa-users"></i><input type="number" name="welcome_party" class="" min="0"
+                                                                  max="6"
                                                                   placeholder="# for Friday Wine Night"
                                                                   >
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="sunday-brunch" class="" 
+                                <i class="fa fa-users"></i><input type="number" name="sunday_brunch" class="" min="0"
+                                                                  max="6"
                                 min="0" max="8"
                                                                   placeholder="# for Sunday Brunch"
                                                                   >
@@ -538,7 +540,7 @@
                                                                 required>
                             </div>
                         </div>
-                    </div>
+                    </div><br><br>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
@@ -591,9 +593,10 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h3>FAQ</h3>
-                <p><b>Is the wedding indoors or outdoors?</b><br>Most events are indoors, and event shuttles will be provided. That said, it is always a good idea to bring layers for chilly October weather.</p>
+                <p><b>Is the wedding indoors or outdoors?</b><br>Most events are indoors. That said, it's a good idea to bring layers as it will get chilly at night in October.</p>
                 <p><b>Can I bring a plus one?</b><br> All guests will be specified on your invitation. Text us at 207-712-7722 if you have questions!</p>
-                <p><b>Should I rent a car?</b><br>Uber/Lyft is available from the airport and within Bend. All events are walkable from the hotel with shuttles provided. However, if you'd like to explore the larger Bend area, we'd recommend renting a car. Parking is available at all events.</p>
+                <p><b>How should I get around without a car? </b><br>Uber and Lyft are available from the airport and within Bend. We will shuttle hotel guests to and from the wedding. While Sunday Brunch is a short walk from the hotel, we suggest taking an Uber or Lyft to Friday's Wine Night as it is a bit further.</p>
+                <p><b>Should I rent a car?</b><br>If you'd like to explore the larger Bend area, we'd recommend renting a car. Parking is available at all events.</p>
                 <p><b>Can I bring gifts? </b><br>No.</p>
                 <p><b>In that case, can I give you money? </b><br>No.</p>
                 <p><b>But I hate showing up empty-handed!</b><br>Contribute by: perfecting your dance moves, bringing coffee to your hungover friends, practicing your volleyball serve, making a new friend and telling them a funny story about Sean or Chessa, planning your karaoke song, or rallying other guests for a hike/beer/coffee.</p>
