@@ -934,3 +934,36 @@ body.modal-open {
 .modal-body {
   padding:25px;
 }
+
+.rsvp-attendance-group {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; /* Center the whole block */
+}
+
+// .rsvp-question {
+//     margin-bottom: 15px;
+//     font-size: 1.2em; /* Make the question stand out */
+//     font-weight: bold;
+// }
+
+.radio-option {
+    display: inline-block; /* Place options side-by-side */
+    margin: 0 20px;      /* Add space between the options */
+}
+
+.radio-option label {
+    margin-left: 8px;   /* Add space between the radio circle and the text */
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+/* Style the radio button itself slightly larger */
+.radio-option input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    vertical-align: middle; /* Align circle with the middle of the text */
+    position: relative;
+    top: -2px;
+}
